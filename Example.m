@@ -29,9 +29,9 @@ subplot(133),imshow(view_order(:,:,60),[]),colormap(map),colorbar,title('the vie
 axis xy;xlabel kz;ylabel ky;set(gca,'FontSize',15)
 
 figure('WindowState','maximized')
-subplot(121),imshow(sum(view_order,3),[]),colormap(map),colorbar,title('the view-ordering consisting of all shots')
+subplot(121),imshow(sum(view_order,3),[]),colormap(map),colorbar,title('the view-ordering formed by all shots')
 axis xy;xlabel kz;ylabel ky,set(gca,'FontSize',15)
-subplot(122),imshow(sum(view_order(:,:,1:30),3),[]),colormap(map),colorbar,title('the view-ordering consisting of 1-30 shots')
+subplot(122),imshow(sum(view_order(:,:,1:30),3),[]),colormap(map),colorbar,title('the view-ordering formed by #1-30 shots')
 axis xy;xlabel kz;ylabel ky,set(gca,'FontSize',15)
 
 
