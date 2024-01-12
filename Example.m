@@ -23,7 +23,7 @@ map = viewordermap('MPL_rainbow_VO');
 figure('WindowState','maximized')
 subplot(131),imshow(view_order(:,:,1),[]),colormap(map),colorbar,title('the view-ordering of #1 shot')
 axis xy;xlabel kz;ylabel ky;set(gca,'FontSize',15)
-subplot(132),imshow(view_order(:,:,30),[]),colormap(map),colorbar,title('the view-ordering of #20 shot')
+subplot(132),imshow(view_order(:,:,30),[]),colormap(map),colorbar,title('the view-ordering of #30 shot')
 axis xy;xlabel kz;ylabel ky;set(gca,'FontSize',15)
 subplot(133),imshow(view_order(:,:,60),[]),colormap(map),colorbar,title('the view-ordering of #60 shot')
 axis xy;xlabel kz;ylabel ky;set(gca,'FontSize',15)
