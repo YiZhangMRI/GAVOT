@@ -3,6 +3,6 @@ A method for designing view-ordering of MRI sequence, based on the Golden Angle 
 ## Get started
 Download the matlab code and run Example.m. The results are as follows.
 ### Figure 1
-![img1](https://github.com/YiZhangMRI/GAVOT/assets/42628712/ad4a5c43-983f-47c3-9f39-75935180c118)
+![Fig1](https://github.com/user-attachments/assets/f095f8c6-2d17-4bc0-947a-09983b1cde2f)
 ### Figure 2
-![img2](https://github.com/YiZhangMRI/GAVOT/assets/42628712/677760a5-c95d-4d27-9406-0bac4aee6685)
+![Fig2](https://github.com/user-attachments/assets/204b4d0d-904f-4128-913f-e17c9a89d712)
